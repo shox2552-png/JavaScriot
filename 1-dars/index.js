@@ -1,4 +1,4 @@
-console.log("Hi Github");
+// console.log("Hi Github");
 
 // 1. git init
 
