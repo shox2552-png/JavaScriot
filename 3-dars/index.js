@@ -111,5 +111,4 @@ let four_age =2025 - year4
 let year5 = prompt("Ukangizni yilini kiriting")
 let five_age = 2025 - year5
 
-console.log((two_age + one_age + three_age + four_age + five_age) / 5)
-
+console.log((two_age + one_age + three_age + four_age + five_age) / 5) 
