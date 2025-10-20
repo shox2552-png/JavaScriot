@@ -25,7 +25,8 @@ let isMerrid = false;
 
 
 // 2.1 - Object : {key: value, key2: value2}
-// let data = [name: "Ali", age: 20
+// let data = [name: "Ali", age: 20]
+
 // 2.2 - Array : [1, "Ali", true, false, null, undafined, [2,3]]
 
 // 2.3 - Fuction:
@@ -45,6 +46,3 @@ let isMerrid = false;
     // name: "Eshmat",
     // addres: "Kosonsoy katta masjid",
 // };
-
-
-// vazifa har bitta data type dan savol javobga tayorlanish
