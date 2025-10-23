@@ -22,4 +22,4 @@
 
 //  2. git commit -m "changed"
 
-// 3.gir push origin master
+// 3.gir push origin master`
