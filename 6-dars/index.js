@@ -49,3 +49,47 @@
 // console.log(true || true)
 // 0, null, undefined, "", false, NaN
 // console.log(Boolean(""))
+
+// ===========================
+
+// UYGA VAZIFA
+
+//======================================== 
+let data = 565;
+
+console.log(data++)
+console.log(data++)
+console.log(++data)
+console.log(data)
+console.log(++data)
+console.log(data++)
+// ==================================
+let son = 199;
+
+console.log(son--)
+console.log(son--)
+console.log(--son)
+console.log(son--)
+console.log(son)
+console.log(--son)
+// =====================================
+console.log("3" == 4);
+console.log("3" === 1);
+console.log(5 > 1);
+console.log(3 < 4);
+console.log(2 >= "1");
+console.log(3 <= "7");
+// ========================
+// console.log(true || false);
+// console.log(true || "");
+// console.log(false || " ");
+// console.log("" || name);
+// console.log(1 || 0);
+
+let person = "4"
+let user = 7
+
+console.log(user+person, typeof (user+person))
+console.log(user-person, typeof (user-person))
+console.log(user*person, typeof (user*person))
+console.log(user/person, typeof (user/person))
