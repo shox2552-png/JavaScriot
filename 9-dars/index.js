@@ -79,12 +79,10 @@
 //     console.log(i);
 // }
     
-// let a = 99
-
-// for (let a = 99; a < 99; a++)prompt("Son kiriting");{
-//     if (100 > a)
-//         console.log("salom");
-//     else{
-//         a > console.log("mumkin emas");
+// for (; 1;){
+//     let n = prompt("Son kiriting");
+//     if (n > 100 || n === null){
+//         console.log(n);
+//         break;
 //     }
 // }
