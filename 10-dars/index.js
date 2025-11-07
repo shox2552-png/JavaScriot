@@ -55,3 +55,11 @@
 //     }
 //     console.log("=============================");
 // }
+
+for (let a = 1; a<= 100; a++){
+    if (a % 2){
+        console.log(a, "- Toq son");
+    }else{
+        console.log(a, "- Juft son");
+    }
+}
