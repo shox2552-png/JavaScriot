@@ -53,11 +53,10 @@
 
 // ====================================================
 
-// function sum(a, b) {
-//     let mul = a ** b
-//     console.log(mul);
-//     if(a % 2) console.log("toq son");
-//     else if(b % 2)console.log("juft son");
-
-// }
-// sum(1, 20)
+function sum(a, b) {
+    let mul = a ** b
+    console.log(mul);
+    if(a % 2) console.log("toq son");
+    else{(b % 2)}console.log("juft son");
+}
+sum(1, 20)
