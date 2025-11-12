@@ -1,6 +1,6 @@
 // let obj = {};
 
-// let obj2 = new Object();
+// let obj2 = new Object(); constructured
 
 // let obj3 = Object()
 
@@ -54,7 +54,7 @@
 
 // console.log("===============================================");
 
-// let a = Object.assign({}, obj)
+// let a = Object.assign({})
 // a.ism = "Toshmat"
 // a.familiya = "Aliyev"
 // a.yoshi = 13
@@ -150,4 +150,5 @@
 // let key2 = "yoshi"
 
 // console.log(obj[key, key2]);
+
 
