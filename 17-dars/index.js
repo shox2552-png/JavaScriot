@@ -52,45 +52,45 @@
 // ==============================================
 // Math
 
-console.log(Math.abs(-6));
-console.log(Math.floor(5.999));
-console.log(Math.ceil(5.001));
-console.log(Math.round(5.4));
-console.log(Math.trunc(5.6));
-console.log(Math.random());
+// console.log(Math.abs(-6));
+// console.log(Math.floor(5.999));
+// console.log(Math.ceil(5.001));
+// console.log(Math.round(5.4));
+// console.log(Math.trunc(5.6));
+// console.log(Math.random());
 
 
-let b = Math.trunc(Math.random() * 10)
+// let b = Math.trunc(Math.random() * 10)
 
-let c = Math.trunc(Math.random() * 10)
-let d = Math.trunc(Math.random() * 10)
-let e = Math.trunc(Math.random() * 10)
+// let c = Math.trunc(Math.random() * 10)
+// let d = Math.trunc(Math.random() * 10)
+// let e = Math.trunc(Math.random() * 10)
 
-let f = Math.trunc(Math.random() * 10)
-let g = Math.trunc(Math.random() * 10)
+// let f = Math.trunc(Math.random() * 10)
+// let g = Math.trunc(Math.random() * 10)
 
-let h = Math.trunc(Math.random() * 10)
-let l = Math.trunc(Math.random() * 10)
-
-
-console.log(`+998 ${9}${b} ${c}${d}${e} ${f}${g} ${h}${l}`)
+// let h = Math.trunc(Math.random() * 10)
+// let l = Math.trunc(Math.random() * 10)
 
 
-console.log(Math.min(1, 67, 3, 7, 8, 4));
-console.log(Math.max(1, 2, 6, 5, 8, 69, 2, 9, 69));
-console.log(Math.pow(3, 2));
-console.log(Math.sign(-15));
-console.log(Math.sqrt(81));
-console.log(Math.cbrt(27));
+// console.log(`+998 ${9}${b} ${c}${d}${e} ${f}${g} ${h}${l}`)
 
-let num = 5.456789
-console.log(num.toFixed(2));
 
-console.log(isNaN("s"));
+// console.log(Math.min(1, 67, 3, 7, 8, 4));
+// console.log(Math.max(1, 2, 6, 5, 8, 69, 2, 9, 69));
+// console.log(Math.pow(3, 2));
+// console.log(Math.sign(-15));
+// console.log(Math.sqrt(81));
+// console.log(Math.cbrt(27));
 
-console.log(isFinite(1 / 0)); // inFinity
+// let num = 5.456789
+// console.log(num.toFixed(2));
 
-console.log(Object.is(3.5, 3.5)); // true , false
+// console.log(isNaN("s"));
 
-console.log(0.1 + 0.2);
-console.log(0.6 + 0.7);
+// console.log(isFinite(1 / 0)); // inFinity
+
+// console.log(Object.is(3.5, 3.5)); // true , false
+
+// console.log(0.1 + 0.2);
+// console.log(0.6 + 0.7);

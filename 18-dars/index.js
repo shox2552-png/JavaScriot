@@ -157,7 +157,6 @@
 // console.log(parent);
 
 
-
 // let obj = {}
 // obj["name"] = "Ali"
 // obj["age"] = 20
@@ -170,3 +169,4 @@
 
 // console.log(binary.toString(2));
 
+// Savol javobga tayorlanish
