@@ -60,16 +60,16 @@
 // Homework
 
 
-let name = prompt("Masinangizni yozing")
+// let name = prompt("Masinangizni yozing")
 
-if (name === "damas" || name === "nexia" || name === "cobalt") {
-    console.log("GM");
-}
+// if (name === "damas" || name === "nexia" || name === "cobalt") {
+//     console.log("GM");
+// }
 
-else if (name === "tesla model 3" || name === "tesla model s" || name === "tesla model x" || name === "tesla mode y") {
-    console.log("TESLA");
-}
+// else if (name === "tesla model 3" || name === "tesla model s" || name === "tesla model x" || name === "tesla mode y") {
+//     console.log("TESLA");
+// }
 
-else if (name === "bmw m5" || name === "bmw i4" ) {
-    console.log("BMW");
-}
+// else if (name === "bmw m5" || name === "bmw i4" ) {
+//     console.log("BMW");
+// }
