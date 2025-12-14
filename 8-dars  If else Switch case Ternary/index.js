@@ -9,21 +9,21 @@
 
 // }
 
-let name = promot("Ism kiriting");
+// let name = promot("Ism kiriting");
 
-switch (name){
-    case "Eshmat":
-        console.log("Ha name Eshmatga teng");
-        return;
-    case "Toshmat":
-        console.log("Ha name Toshmatga teng");
-        return
-    case "Alibek":
-        console.log("Ha name Alibekga teng");
-        return
-    default:
-        console.log("Bu name bizda mavjud emas");
-}
+// switch (name){
+//     case "Eshmat":
+//         console.log("Ha name Eshmatga teng");
+//         return;
+//     case "Toshmat":
+//         console.log("Ha name Toshmatga teng");
+//         return
+//     case "Alibek":
+//         console.log("Ha name Alibekga teng");
+//         return
+//     default:
+//         console.log("Bu name bizda mavjud emas");
+// }
 
 // let n = prompt("raqam kiriting");
 

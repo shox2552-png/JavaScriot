@@ -1,4 +1,6 @@
-// && - and - va
+// && - and - va  false
+
+// || yoki - true
 
 // console.log(1 && true && undefined && false && 0);
 

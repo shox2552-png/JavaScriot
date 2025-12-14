@@ -1,8 +1,8 @@
 // 2-dars.
 
-let name = "Ali";
-let age = 20;
-let isMerrid = false;
+// let name = "Ali";
+// let age = 20;
+// let isMerrid = false;
 
 // Data type - Ma'lumotlar turi
 

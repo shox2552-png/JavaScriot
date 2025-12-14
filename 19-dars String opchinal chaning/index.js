@@ -2,10 +2,9 @@
 //     name: 'Ali'
 // }
 
-// console.log(obj.child?.name);
+// console.log(obj.child?.name); // Optional Chaning
 
 // let name = "Salom \n Oxford"
-
 
 // console.log(name);
 

@@ -1,5 +1,3 @@
-
-
 // console.log("Shoxjahon 1")
 // console.log("Shoxjahon 2")
 // console.log("Shoxjahon 3")

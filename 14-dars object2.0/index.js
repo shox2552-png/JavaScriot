@@ -44,16 +44,16 @@
 
 // 1. Savol
 
-let student = {
-  firstName: "Eshmat",
-  lastName: "Toshmatov",
-  age: 20,
-  course: "Frontend"
-};
+// let student = {
+//   firstName: "Eshmat",
+//   lastName: "Toshmatov",
+//   age: 20,
+//   course: "Frontend"
+// };
 
-delete student.course
+// delete student.course
 
-console.log(student);
+// console.log(student);
 
 
 
@@ -63,14 +63,14 @@ console.log(student);
 
 // 2. Savol
 
-let data = {
-  name: "Phone",
-  model: "iPhone",
-  price: 700,
-  quantity: 8
-};
+// let data = {
+//   name: "Phone",
+//   model: "iPhone",
+//   price: 700,
+//   quantity: 8
+// };
 
-console.log(700 * 8);
+// console.log(700 * 8);
 
 
 // Quyidagi Telefon mahsulot nomi, bir dona narxi va miqdori berilgan. Umumiy narxni hisoblab bering;
