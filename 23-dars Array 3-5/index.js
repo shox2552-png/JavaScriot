@@ -80,7 +80,7 @@
 // ============================================================
 // Homework
 
-// 1-masala: 
+// 1-masala:
 // const numbers = [2, 4, 6, 8, 10];
 
 // let data = numbers.map((value) => {
@@ -91,17 +91,17 @@
 // Berilgan sonlar massividagi har bir elementni kvadratini hisoblab, natijani yangi massivga qo‘shing.
 //=======================================================
 
-// 2-masala: 
+// 2-masala:
 // const words = ["apple", "banana", "cherry", "date"];
 
 // let data = words.forEach((value)=>{
-//     console.log(value.length);  
+//     console.log(value.length);
 // })
 
 // Berilgan stringlar massividagi har bir so‘zning uzunligini konsolga chiqaring.
 // ======================================
 
-// 3-masala: 
+// 3-masala:
 // const prices = [1000, 2500, 4000, 7000];
 
 // let data = prices.map((value) => {
@@ -114,13 +114,18 @@
 
 // 4-masala:
 
-const users = [
-  { name: "Ali", age: 20, city: "Tashkent" },
-  { name: "Vali", age: 25, city: "Samarkand" },
-  { name: "Hasan", age: 18, city: "Bukhara" }
-];
+// const users = [
+//     { name: "Ali", age: 20, city: "Tashkent" },
+//     { name: "Vali", age: 25, city: "Samarkand" },
+//     { name: "Hasan", age: 18, city: "Bukhara" }
+// ];
 
+// let newusers = users.map((obj) => {
+//     delete obj["city"]
+//     return obj
+// })
 
+// console.log(newusers);
 
 // Berilgan foydalanuvchilar massividan faqat ism va yoshdan iborat yangi obyektlar massivi yarating.
 // ===============================================
@@ -150,34 +155,44 @@ const users = [
 // })
 
 // console.log(data);
-
-// ================================
-
 // Berilgan mahsulotlar massividan narxi 100 000 dan yuqori bo‘lgan mahsulotlarni toping.
+// ================================
 
 // 7-masala:
 
 // const users = [
-//   { name: "Aziz", age: 16 },
-//   { name: "Dilshod", age: 17 },
-//   { name: "Malika", age: 19 },
-//   { name: "Sardor", age: 21 }
+//     { name: "Aziz", age: 16 },
+//     { name: "Dilshod", age: 17 },
+//     { name: "Malika", age: 19 },
+//     { name: "Sardor", age: 21 }
 // ];
 
+// let data = users.find((obj) => obj.age > 18)
+
+// console.log(data);
 // Berilgan foydalanuvchilar massividan yoshi 18 dan katta bo‘lgan birinchi foydalanuvchini toping.
 
-// 8-masala:   
-//  const texts = ["html", "css", "javascript", "react", "nodejs"];
+// 8-masala:
+// const texts = ["html", "css", "javascript", "react", "nodejs"];
+
+// let data = texts.find((str) => str.includes("j"))
+
+// console.log(data);
 
 // Berilgan so‘zlar massividan "js" so‘zini o‘z ichiga olgan birinchi elementni toping.
+// ==========================
 
-// 9-masala:    
+// 9-masala:
 // const numbers = [5, 10, -3, 7, -1, 20];
 
-// let data = numbers.filter((value) => {
-//     if (value % 2 === -1) return value
-// })
-// console.log(data);
+// let newArr = numbers
+//     .map((num, index, arr) => num < 0 && index)
+//     .filter((v) => v)
+
+// let newArr = []
+// numbers.forEach((num, i) => num < 0 && newArr.push(i))
+
+// console.log(newArr);
 
 
 // Berilgan sonlar massividan manfiy sonning indeksini toping.
@@ -192,14 +207,7 @@ const users = [
 //   { name: "Husan", email: "husan@gmail.com" }
 // ];
 
-// let findval = users.findIndex((value, index, arr) => {
-//     console.log(value , "|", index, "|", arr);
-//     return value === "@gmail.com"
-// })
-
-// let findlastval = users.findLastIndex((value, index, arr)=>{
-//     console.log(value, "|", index, "|", arr);
-//     return value === "@gmail.com"
-// })
+// let index = users.findIndex((obj)=> obj.email.endsWith("@gmail.com"))
+// console.log(index);
 
 // Berilgan foydalanuvchilar massividan emaili "@gmail.com" bilan tugaydigan birinchi foydalanuvchining indeksini toping.
