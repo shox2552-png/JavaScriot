@@ -24,8 +24,11 @@
 // arr.push(6) // oxiriga qiymat qoshadi
 // arr.push({ name: "Ali" })
 // arr.push(arr2)
+
 // arr.pop(5) // oxirgi qiymatni del qiladi
+
 // arr.unshift(-2, -1, 0) // boshiga qiymat qoshadi
+
 // arr.shift() //oldidan qiymat del qiladi
 // console.log(arr);
 
