@@ -36,8 +36,8 @@
 // ======================================================->
 //  Basic array
 
-let arr = [1, 2, 3, 4, 5]
-let arr2 = [1, 2, 3, 4, 5]
+// let arr = [1, 2, 3, 4, 5]
+// let arr2 = [1, 2, 3, 4, 5]
 
 // arr.push(6) // oxiriga qiymat qoshadi
 // arr.push({ name: "Ali" })
@@ -46,4 +46,6 @@ let arr2 = [1, 2, 3, 4, 5]
 // arr.unshift(-2, -1, 0) // boshiga qiymat qoshadi
 // arr.shift() //oldidan qiymat del qiladi
 
-console.log(arr);
+// console.log(arr);
+
+

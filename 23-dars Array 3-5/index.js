@@ -108,7 +108,7 @@
 //     return value *5
 // })
 
-// console.log(data);
+// console.log(data);   
 // Berilgan sonlar massividagi har bir elementni 5 ga oshirib, yangi massiv hosil qiling.
 // ========================================
 
