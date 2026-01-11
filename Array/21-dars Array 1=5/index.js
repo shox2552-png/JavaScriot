@@ -1,12 +1,12 @@
-// let arr1 = []
-// let arr2 = Array()
-// let arr3 = new Array(2, 4)  // tafsiya qilinmaydi
+let arr1 = []
+let arr2 = Array()
+let arr3 = new Array(2, 4)  // tafsiya qilinmaydi
 
-// arr3[1] = "Hi"
+arr3[1] = "Hi"
 
-// console.log(arr3);
+console.log(arr3);
 
-// let arr = [
+// let arr1 = [
 //     "Oxford",
 //     2025,
 //     null,
@@ -19,9 +19,9 @@
 //     function () { },
 // ]
 
-// console.log(arr);
-// console.log(arr[7].age);
-// console.log(arr[8][1]);
+// console.log(arr1);
+// console.log(arr1[7].age);
+// console.log(arr1[8][1]);
 
 // let arr = [1, 2, [3, 4, [5, 6, 7, 8, 9]]];
 
