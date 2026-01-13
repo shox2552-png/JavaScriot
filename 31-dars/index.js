@@ -1,16 +1,22 @@
-// let data  = new Date
-// console.log(data.getFullYear());
-// console.log(data.getMonth()+1);
-// console.log(data.getDate());
-// console.log(data.getDay());
-// console.log(data.getHours());
-// console.log(data.getMinutes());
-// console.log(data.getSeconds());
-// console.log(data.getMilliseconds());
-// console.log(data.getTime());
-// console.log(data.toDateString());
-// console.log(data.toTimeString());
-// console.log(data.toISOString());
-// console.log(data.toUTCString());
-// console.log(data.toLocaleString());
-// console.log(data.toLocaleDateString());
+// let date  = new Date()
+// console.log(date.getFullYear());
+// console.log(date.getMonth()+1);
+// console.log(date.getDate());
+// console.log(date.getDay());
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getSeconds());
+// console.log(date.getMilliseconds());
+// console.log(date.getTime());
+// console.log(date.toDateString());
+// console.log(date.toTimeString());
+// console.log(date.toISOString());
+// console.log(date.toUTCString());
+// console.log(date.toLocaleString());
+// console.log(date.toLocaleDateString());
+
+
+// for (let i = 0; true; i++) {
+//     console.log(new Date().getMilliseconds());
+// }
+
