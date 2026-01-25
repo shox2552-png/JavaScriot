@@ -1,34 +1,34 @@
 // 1.
-let str = "Men Algoritm IT markazida tahsil olaman";
+// let str = "Men Algoritm IT markazida tahsil olaman";
 // Berilgan matndan birinchi uchragan unli harf bilan oxirgi
 // uchragan undosh harf indexlari ayirmasini chiqaring.
 
 // let str = "Men Algoritm IT markazida tahsil olaman";
 
-let vowels = "aeiou";
+// let vowels = "aeiou";
 
-let firstVowelIndex = -1;
-for (let i = 0; i < str.length; i++) {
-  if (vowels.includes(str[i])) {
-    firstVowelIndex = i;``
-    break;
-  }
-}
+// let firstVowelIndex = -1;
+// for (let i = 0; i < str.length; i++) {
+//   if (vowels.includes(str[i])) {
+//     firstVowelIndex = i;``
+//     break;
+//   }
+// }
 
-let lastConsonantIndex = -1;
-for (let i = str.length - 1; i >= 0; i--) {
-  if (/[a-z]/.test(str[i]) && !vowels.includes(str[i])) {
-    lastConsonantIndex = i;
-    break;
-  }
-}
+// let lastConsonantIndex = -1;
+// for (let i = str.length - 1; i >= 0; i--) {
+//   if (/[a-z]/.test(str[i]) && !vowels.includes(str[i])) {
+//     lastConsonantIndex = i;
+//     break;
+//   }
+// }
 
 
-let result = firstVowelIndex - lastConsonantIndex;
+// let result = firstVowelIndex - lastConsonantIndex;
 
-console.log("Birinchi unli index:", firstVowelIndex);
-console.log("Oxirgi undosh index:", lastConsonantIndex);
-console.log("Ayirma:", result);
+// console.log("Birinchi unli index:", firstVowelIndex);
+// console.log("Oxirgi undosh index:", lastConsonantIndex);
+// console.log("Ayirma:", result);
 
 
 // 2.
@@ -47,3 +47,19 @@ console.log("Ayirma:", result);
 // let str = "a3b2c1d4";
 // xar bir harfni yonidagi raqamiga qarab harflarni takrorlab, yangi Matn hosil qiling.
 // natija: "aaabbcdddd"
+
+
+//                    /\_/\
+//                   / * * \
+//                   \  _  /
+//                 ___\___/___
+//                / /       \ \
+//               / /         \ \
+//              / /\         /\ \
+//             /_/  \       /  \_\
+//                   \_____/ 
+//                  /  / \  \
+//                 /  /   \  \
+//                /  /     \  \
+//               /  /       \  \
+//              /__/         \__\
