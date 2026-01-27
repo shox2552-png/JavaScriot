@@ -13,17 +13,17 @@
 
 
 // setTimeout(() => {
-//     clearInterval(taymerID);
+//     clearInterval(timerId);
 //     console.log("Taymer to'xtatildi.");
-// }, 5000);
+// }, 2000);
 
 // const timerId = setTimeout(() => {
 //     console.log("Bu xabar chiqmaydi");
-// }, 5000); 
+// }, 2000); 
 
 // clearTimeout(timerId);
 
-// console.log("Taymer to'xtatildi.");
+// console.log("Taymer ishlayapti.");
 
 
 // =====================================
