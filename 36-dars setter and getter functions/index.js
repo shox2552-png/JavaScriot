@@ -39,4 +39,4 @@
 // // obj.name = "Eshmat"
 // obj = { ...obj, name: "Eshmat" }
 
-// console.log(obj);
+// console.log(obj); 
