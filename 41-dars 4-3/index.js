@@ -48,6 +48,8 @@
 // console.log(obj.getParentName());
 
 
+// Mixim mukammal usul  
+
 const Parent = (Data) =>
     class extends Data {
         getParentName() {
@@ -76,6 +78,6 @@ class SubChild extends Parent(Parent2(Child(Boglovchi))){
     }
 }
 
-let obj = new SubChild()
-console.log(obj.getParentName);
-console.log(obj.getParent2Name);
+    let obj = new SubChild()
+    console.log(obj.getParentName());
+    console.log(obj.getParent2Name());
